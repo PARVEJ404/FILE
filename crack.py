@@ -70,13 +70,13 @@ def menu_apikey():
  
 
   os.system(f" clear")                          
-  print(f"""\x1b[1;97m          
-d8888b.  .d8b.  d8888b. db    db d88888b    d88b 
-88  `8D d8' `8b 88  `8D 88    88 88'        `8P' 
-88oodD' 88ooo88 88oobY' Y8    8P 88ooooo     88  
-88~~~   88~~~88 88`8b   `8b  d8' 88~~~~~     88  
-88      88   88 88 `88.  `8bd8'  88.     db. 88  
-88      YP   YP 88   YD    YP    Y88888P Y8888P  
+  print(f"""         
+\033[1;32md8888b.  .d8b.  d8888b. db    db d88888b    d88b 
+\033[1;37m88  `8D d8' `8b 88  `8D 88    88 88'        `8P' 
+\033[1;32m88oodD' 88ooo88 88oobY' Y8    8P 88ooooo     88  
+\033[1;37m88~~~   88~~~88 88`8b   `8b  d8' 88~~~~~     88  
+\033[1;32m88      88   88 88 `88.  `8bd8'  88.     db. 88  
+\033[1;37m88      YP   YP 88   YD    YP    Y88888P Y8888P  
  
     ┌───────────────────────────────────────┐
     │ [✓] AUTHOR   : PARVEJ HOSSEN           │
