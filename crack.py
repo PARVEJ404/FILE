@@ -195,7 +195,7 @@ def Spy():
 			ps_limit = int(input(f' How many passwords do you want to add ? '))
 		except:
 			ps_limit =1
-		print(f'\033[1;32m exp: first last,firtslast,first123')
+		print(f'\033[1;32m exp: first last,firtslast,first123,first@,first@@,first@@@,hasan123,khan123,i love you,Bangladesh, bangladesh,last123')
 		for i in range(ps_limit):
 			plist.append(input(f' Put password {i+1}: '))
 		print(f' Do you went show cp account? (y/n): ')
